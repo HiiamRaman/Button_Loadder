@@ -1,0 +1,17 @@
+.conatiner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.product-conatiner{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.product{
+    padding: 20px;
+    display:flex ;
+    border: 1px solid;
+    flex-direction: column;
+    gap: 10px;
+}
